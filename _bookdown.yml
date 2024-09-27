@@ -1,0 +1,10 @@
+book_filename: "Geog279Course"
+output_dir: "docs"
+rmd_files: ["index.Rmd", "course_schedule.Rmd", "assignments.Rmd", "readings.Rmd", "resources.Rmd"]
+
+header_pages:
+  - index.Rmd
+  - course_schedule.Rmd
+  - assignments.Rmd
+  - readings.Rmd
+  - resources.Rmd

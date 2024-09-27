@@ -1,0 +1,58 @@
+# Course Schedule
+
+## Aspirational Plan for the Quarter
+
+### Week 0: Why Causal Analysis?
+- Introduction to causal analysis.
+  
+### Week 1: Potential Outcomes Framework
+- **Note:** *No class on Thurs, Oct 3.*
+- **Readings:**
+  - Ferraro et al. 2018: [Link](https://doi.org/10.1073/pnas.18055631)
+  - *Skim:* Holland, P. W. (1986). "Statistics and Causal Inference." *Journal of the American Statistical Association*, 81(396), 945–960. [Link](https://doi.org/10.2307/2289064)
+
+### Week 2: Causal Diagrams
+- **Tuesday:**
+  - Huntington, Nick, *The Effect* Chapters 6 and 7. [Link](https://theeffectbook.net/index.html)
+- **Thursday:**
+  - Brodie, Jedediah F., et al. (2023). "Landscape-Scale Benefits of Protected Areas for Tropical Biodiversity." *Nature*, 620(7975), 807–12. [Link](https://doi.org/10.1038/s41586-023-06410-z)
+- **Assignment:** Assignment 1 due **Thurs, Oct 10** (includes paper topic).
+
+### Week 3: Randomized Control Trials and Power Calculations
+- **Readings:**
+  - **Tuesday:** Chapter 4 from Gertler, Paul J., et al. (2016). *Impact Evaluation in Practice*.
+  - **Thursday:** Chapter 15 from the same book.
+  
+### Week 4: Matching and Synthetic Controls
+- **Tuesday:**
+  - Honey-Rosés, Jordi, et al. (2011). "A Spatially Explicit Estimate of Avoided Forest Loss." *Conservation Biology*, 25(5), 1032–43. [Link](https://doi.org/10.1111/j.1523-1739.2011.01729.x)
+- **Thursday:**
+  - Abadie, Alberto, et al. (2010). "Synthetic Control Methods for Comparative Case Studies." *Journal of the American Statistical Association*, 105(490), 493–505.
+- **Assignment:** Assignment 2 due **Thurs, Oct 24**.
+
+### Week 5: Differences-in-Differences and Staggered Roll-Out
+- **Readings:**
+  - **Tuesday:** Wauchope, Hannah S., et al. (2022). "Protected Areas Have a Mixed Impact on Waterbirds, but Management Helps." *Nature*, 605(7908), 103–7. [Link](https://doi.org/10.1038/s41586-022-04617-0)
+  - **Thursday:** Roth, Jonathan, et al. (2023). "What’s Trending in Difference-in-Differences?" *Journal of Econometrics*, 235(2), 2218-2244. [Link](https://doi.org/10.1016/j.jeconom.2023.03.008)
+
+### Week 6: Instrumental Variables and Regression Discontinuity Design
+- **Tuesday:**
+  - Mellon, Jonathan. (2024). "Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations." *American Journal of Political Science*. [Link](https://doi.org/10.1111/ajps.12894)
+- **Thursday:**
+  - Noack, Frederik, et al. (2022). "A Bird’s Eye View of Farm Size and Biodiversity." *American Journal of Agricultural Economics*, 104(4), 1460–84. [Link](https://doi.org/10.1111/ajae.12274)
+- **Assignment:** Assignment 3 due **Thurs, Nov 7**.
+
+### Week 7: Standard Errors and Spatial Considerations
+- **Topic:** Introduction to spatial considerations in statistical models.
+
+### Week 8: Remote Sensing and Machine Learning in Causal Analysis
+- **Readings:**
+  - Proctor, J., et al. (2023). "Parameter Recovery Using Remotely Sensed Variables." *NBER Working Paper*.
+  - *Skim:* Baylis, K., et al. (2021). "Machine Learning in Agricultural Economics." *Handbook of Agricultural Economics*. [Link](https://doi.org/10.1016/bs.hesagr.2021.10.007)
+- **Assignment:** Assignment 4 due **Thurs, Nov 21**.
+
+### Week 9: Machine Learning in Causal Analysis
+- **Note:** *No class on Thurs, Nov 28: Thanksgiving.*
+
+### Week 10: Presentations
+- **Final Paper Proposal:** Due **Dec 9**.
