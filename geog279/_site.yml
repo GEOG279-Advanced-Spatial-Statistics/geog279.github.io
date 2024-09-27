@@ -4,15 +4,10 @@ description: |
   Geog279 Course Website
 output_dir: "docs"
 navbar:
-name: "geog279"
-title: "Geog279 Course Website"
-output_dir: "docs"
-theme: cosmo  # You can change the theme to your preference (e.g., journal, flatly)
-
-navbar:
   left:
     - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "Course Schedule"
       href: course_schedule.html
     - text: "Assignments"
@@ -25,4 +20,6 @@ navbar:
     - text: "Contact"
       icon: fa-envelope
       href: mailto:baylis@ucsb.edu
+  logo: images/logo.png
+  search: true
 output: distill::distill_article
