@@ -11,25 +11,7 @@
             "id": "7e8729699de9db3c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "56d63db1ad9fc064",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bbce1010d0b2a24f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -157,7 +139,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bbce1010d0b2a24f",
+  "active": "7e8729699de9db3c",
   "lastOpenFiles": [
     "Welcome.md"
   ]
