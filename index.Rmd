@@ -21,24 +21,24 @@ knitr::opts_chunk$set(echo = FALSE)
 # [Instructor Information](#instructor-information)
 
 ::: {.callout-note}
-- Instructor: Kathy Baylis
-- Office Location: 5808 Ellison Hall
-- Office Hours: 9-10 AM on Tuesdays or by appointment
-- Term: Fall 2024
+- **Instructor**: Kathy Baylis
+- **Office Location**: 5808 Ellison Hall
+- **Office Hours**: 9-10 AM on Tuesdays or by appointment
+- **Term**: Fall 2024
 :::
 
 # [Course Description](#course-description)
 
-**Geog 279: Advanced Spatial Statistics (Introduction to Causal Analysis in Space)** focuses on developing skills in causal analysis within spatial contexts. This course introduces students to key concepts in causal inference, statistical methodologies, and their applications in spatial analysis. Throughout the quarter, students will engage with various statistical techniques, including randomized control trials (RCT), matching, synthetic controls, differences-in-differences (DID), instrumental variables, regression discontinuity design, and machine learning (ML).
+**Geog 279: Applied Statistics for Geography (Introduction to Causal Analysis in Space)** focuses on developing skills in causal analysis within spatial contexts. This course introduces students to key concepts in causal inference, statistical methodologies, and their applications in spatial analysis. Throughout the quarter, students will engage with various statistical techniques, including randomized control trials (RCT), matching, synthetic controls, differences-in-differences (DID), instrumental variables, regression discontinuity design, and machine learning (ML).
 
 The course will involve a series of readings, assignments, and practical applications to deepen the understanding of causal analysis in geography. Students will learn to:
 
 - Understand the potential outcomes framework for causal inference.
 - Utilize causal diagrams to represent relationships in spatial data.
-- Design and implement randomized control trials (RCT) and power calculations for spatial data.
+- Design and implement RCT and power calculations for spatial data.
 - Apply matching and synthetic control methods to estimate causal effects.
-- Use differences-in-differences (DID) and instrumental variables in spatial statistics.
-- Incorporate machine learning (ML) and remote sensing in causal analysis for geographical studies.
+- Use DID and instrumental variables in spatial statistics.
+- Incorporate ML and remote sensing in causal analysis for geographical studies.
 
 ## [Course Goals](#course-goals)
 
