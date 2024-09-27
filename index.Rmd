@@ -1,5 +1,5 @@
 ---
-title: "GEOG 279 Course Website"
+title: "GEOG 279 Course Overview"
 description: |
   Causal Analysis in Space
 site: distill::distill_website
