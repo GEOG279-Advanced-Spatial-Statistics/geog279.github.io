@@ -3,6 +3,7 @@ title: "Geog279 Course Website"
 description: |
   Geog279 Course Website
 output_dir: "docs"
+theme: "css/theme.css"
 navbar:
   left:
     - text: "Home"

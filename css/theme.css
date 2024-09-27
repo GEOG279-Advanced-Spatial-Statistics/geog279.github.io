@@ -1,0 +1,107 @@
+/* Navbar Styles */
+.distill-site-nav {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #455a64; /* Dark slate gray */
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.distill-site-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+}
+
+/* Header Styles */
+.distill-site-header {
+  text-align: center;
+  background-color: #607d8b; /* Blue-gray */
+  color: white;
+  padding: 20px;
+}
+
+.distill-site-title {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.distill-site-description {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+.distill-site-footer {
+  background-color: #455a64; /* Dark slate gray */
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  text-align: center;
+}
+
+/* Footer Link Styles */
+.distill-site-footer a {
+  color: #ffcc80; /* Light orange */
+  text-decoration: none;
+}
+
+.distill-site-footer a:hover {
+  color: white;
+}
+
+/* Body Text */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9; /* Light gray background */
+  color: #333333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Callout Boxes */
+.callout-note {
+  background-color: #e0f7fa; /* Light cyan */
+  border-left: 5px solid #00796b; /* Teal */
+  padding: 15px;
+  margin: 20px 0;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #607d8b; /* Blue-gray */
+  color: white;
+}
+
+/* Link Styles */
+a {
+  color: #00796b; /* Teal */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Print Styles */
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}

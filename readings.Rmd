@@ -2,17 +2,3 @@
 title: "Readings"
 description: " List of readings for the GEOG 279 course."
 ---
-
-| **Week** | **Topic**                                      | **Readings**                                                                                                               |
-|----------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Week 0   | Why Causal Analysis?                           | Introduction to causal analysis. PPT                                                                                       |
-| Week 1   | Potential Outcomes Framework                   | - Ferraro et al. 2018: [Link](#) <br> - Skim: Holland, P. W. (1986). "Statistics and Causal Inference." *JASA*, 81(396), 945–960. [Link](#) |
-| Week 2   | Causal Diagrams                                | - Tuesday: Huntington, Nick, *The Effect* Chapters 6 and 7. [Link](#) <br> - Thursday: Brodie, Jedediah F., et al. (2023). "Landscape-Scale Benefits of Protected Areas." *Nature*, 620(7975), 807–12. [Link](#) |
-| Week 3   | Randomized Control Trials and Power Calculations| - Tuesday: Chapter 4 from Gertler, Paul J., et al. (2016). *Impact Evaluation in Practice.* <br> - Thursday: Chapter 15 from the same book. |
-| Week 4   | Matching and Synthetic Controls                | - Tuesday: Honey-Rosés, Jordi, et al. (2011). "A Spatially Explicit Estimate of Avoided Forest Loss." *Conservation Biology*, 25(5), 1032–43. [Link](#) <br> - Thursday: Abadie, Alberto, et al. (2010). "Synthetic Control Methods for Comparative Case Studies." *JASA*, 105(490), 493–505. |
-| Week 5   | Differences-in-Differences and Staggered Roll-Out | - Tuesday: Wauchope, Hannah S., et al. (2022). "Protected Areas Have a Mixed Impact on Waterbirds, but Management Helps." *Nature*, 605(7908), 103–7. [Link](#) <br> - Thursday: Roth, Jonathan, et al. (2023). "What’s Trending in Difference-in-Differences?" *Journal of Econometrics*, 235(2), 2218-2244. [Link](#) |
-| Week 6   | Instrumental Variables and Regression Discontinuity Design | - Tuesday: Mellon, Jonathan. (2024). "Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations." *AJPS*. [Link](#) <br> - Thursday: Noack, Frederik, et al. (2022). "A Bird’s Eye View of Farm Size and Biodiversity." *AJAE*, 104(4), 1460–84. [Link](#) |
-| Week 7   | Standard Errors and Spatial Considerations     | Introduction to spatial considerations in statistical models.                                                              |
-| Week 8   | Remote Sensing and Machine Learning in Causal Analysis | - Proctor, J., et al. (2023). "Parameter Recovery Using Remotely Sensed Variables." *NBER Working Paper.* <br> - Skim: Baylis, K., et al. (2021). "Machine Learning in Agricultural Economics." *Handbook of Agricultural Economics*. [Link](#) |
-| Week 9   | Machine Learning in Causal Analysis            | No class on Thurs, Nov 28: Thanksgiving.                                                                                   |
-| Week 10  | Presentations                                  | Final Paper Proposal: Due Dec 9.                                                                                          |
