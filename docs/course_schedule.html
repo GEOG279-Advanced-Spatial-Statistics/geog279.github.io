@@ -2183,6 +2183,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-size: 17px; /* Increased font size */
     font-weight: 300;
     padding: 10px;
+    display: flex;           /* Use flexbox for layout */
+    justify-content: space-between; /* Spread out elements to the edges */
+    align-items: center;     /* Vertically center the content */
+  }
+
+  /* Align the logo/title to the right */
+  .distill-site-nav .navbar-brand {
+    order: 2; /* Move logo to the right */
+    margin-left: auto; /* Push logo to the right side */
   }
 
   .distill-site-nav a {
@@ -2193,6 +2202,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-nav a:hover {
     color: white;
+  }
+
+  /* Adjust the size of the logo in the navbar */
+  .distill-site-nav .navbar-brand img {
+      height: 100px; /* Adjusted the height to make the logo larger */
+      width: auto;   /* Maintain aspect ratio */
   }
 
   /* Header Styles */
@@ -2278,12 +2293,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   a:hover {
     text-decoration: underline;
-  }
-
-  /* Adjust the size of the logo in the navbar */
-  .distill-site-nav .navbar-brand img {
-      height: 70px; /* Adjusted the height */
-      width: auto;  /* Maintains the aspect ratio */
   }
 
   /* Print Styles */
@@ -2479,6 +2488,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <img src="images/logo.png"/>
 </span>
 <a href="index.html" class="title"> GEOG 279 - Applied Statistics for Geography</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
 <a href="index.html" aria-label="Home">
 <i class="fa fa-home" aria-hidden="true"></i>
 </a>
@@ -2486,9 +2498,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="assignments.html">Assignments</a>
 <a href="readings.html">Readings</a>
 <a href="resources.html">Resources</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
 <a href="mailto:baylis@ucsb.edu" aria-label="Contact">
 <i class="fa fa-envelope" aria-hidden="true"></i>
 </a>
@@ -2534,7 +2543,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <td><strong>0</strong></td>
 <td>Why Causal Analysis?</td>
 <td>Introduction to causal analysis.</td>
-<td><a href="#">Link</a></td>
+<td><a href="slides/Intro_to_causality.pptx">PPT</a></td>
 </tr>
 <tr class="even">
 <td><strong>1</strong></td>

@@ -5,7 +5,7 @@ description: |
 output_dir: "docs"
 theme: "css/theme.css"
 navbar:
-  left:
+  right:
     - text: "Home"
       href: index.html
       icon: fa-home
@@ -17,7 +17,6 @@ navbar:
       href: readings.html
     - text: "Resources"
       href: resources.html
-  right:
     - text: "Contact"
       icon: fa-envelope
       href: mailto:baylis@ucsb.edu

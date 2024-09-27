@@ -5,6 +5,15 @@
   font-size: 17px; /* Increased font size */
   font-weight: 300;
   padding: 10px;
+  display: flex;           /* Use flexbox for layout */
+  justify-content: space-between; /* Spread out elements to the edges */
+  align-items: center;     /* Vertically center the content */
+}
+
+/* Align the logo/title to the right */
+.distill-site-nav .navbar-brand {
+  order: 2; /* Move logo to the right */
+  margin-left: auto; /* Push logo to the right side */
 }
 
 .distill-site-nav a {
@@ -15,6 +24,12 @@
 
 .distill-site-nav a:hover {
   color: white;
+}
+
+/* Adjust the size of the logo in the navbar */
+.distill-site-nav .navbar-brand img {
+    height: 100px; /* Adjusted the height to make the logo larger */
+    width: auto;   /* Maintain aspect ratio */
 }
 
 /* Header Styles */
@@ -100,12 +115,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-/* Adjust the size of the logo in the navbar */
-.distill-site-nav .navbar-brand img {
-    height: 70px; /* Adjusted the height */
-    width: auto;  /* Maintains the aspect ratio */
 }
 
 /* Print Styles */
