@@ -1,5 +1,5 @@
 name: "geog279"
-title: " GEOG 279"
+title: " GEOG 279 - Applied Statistics for Geography"
 description: |
   Geog279 Course Website
 output_dir: "docs"
@@ -21,6 +21,9 @@ navbar:
     - text: "Contact"
       icon: fa-envelope
       href: mailto:baylis@ucsb.edu
+    - icon: fab fa-github
+      href: https://github.com/GEOG279-Advanced-Spatial-Statistics
   logo: images/logo.png
   search: true
+  
 output: distill::distill_article
