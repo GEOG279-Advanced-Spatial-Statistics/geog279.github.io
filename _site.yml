@@ -19,7 +19,7 @@ navbar:
       href: resources.html
     - text: "Contact"
       icon: fa-envelope
-      href: mailto:baylis@ucsb.edu
+      href: "mailto:baylis@ucsb.edu"
     - icon: fab fa-github
       href: https://github.com/GEOG279-Advanced-Spatial-Statistics
   logo: images/logo.png

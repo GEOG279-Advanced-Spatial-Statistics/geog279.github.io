@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-09-27T13:40:25-07:00"
+      "last_modified": "2024-09-27T13:46:01-07:00"
     },
     {
       "path": "assignments.html",
@@ -14,7 +14,7 @@
       "description": "List of assignments for the GEOG 279 course.",
       "author": [],
       "contents": "\nWeek\nAssignment\nDue Date\nWeek 2\nAssignment 1 (includes paper topic)\nThurs, Oct 10\nWeek 4\nAssignment 2\nThurs, Oct 24\nWeek 6\nAssignment 3\nThurs, Nov 7\nWeek 8\nAssignment 4\nThurs, Nov 21\nWeek 10\nFinal Paper Proposal\nMon, Dec 9\n\n\n\n",
-      "last_modified": "2024-09-27T13:40:25-07:00"
+      "last_modified": "2024-09-27T13:46:02-07:00"
     },
     {
       "path": "course_schedule.html",
@@ -22,7 +22,7 @@
       "description": "Weekly schedule for the GEOG 279 course.",
       "author": [],
       "contents": "\nCourse Syllabus\nWeek\nTopic\nReadings\nPPT Slides\n0\nWhy Causal Analysis?\nIntroduction to causal analysis.\nPPT\n1\nPotential Outcomes Framework\nFerraro et al. 2018: Link - Skim: Holland, P. W. (1986). “Statistics and Causal Inference.” JASA, 81(396), 945–960. Link\n\n2\nCausal Diagrams\nTuesday: Huntington, Nick, The Effect Chapters 6 and 7. Link - Thursday: Brodie, Jedediah F., et al. (2023). “Landscape-Scale Benefits of Protected Areas.” Nature, 620(7975), 807–12. Link\n\n3\nRandomized Control Trials and Power Calculations\nTuesday: Chapter 4 from Gertler, Paul J., et al. (2016). Impact Evaluation in Practice. - Thursday: Chapter 15 from the same book.\n\n4\nMatching and Synthetic Controls\nTuesday: Honey-Rosés, Jordi, et al. (2011). “A Spatially Explicit Estimate of Avoided Forest Loss.” Conservation Biology, 25(5), 1032–43. Link - Thursday: Abadie, Alberto, et al. (2010). “Synthetic Control Methods for Comparative Case Studies.” JASA, 105(490), 493–505.\n\n5\nDifferences-in-Differences and Staggered Roll-Out\nTuesday: Wauchope, Hannah S., et al. (2022). “Protected Areas Have a Mixed Impact on Waterbirds, but Management Helps.” Nature, 605(7908), 103–7. Link - Thursday: Roth, Jonathan, et al. (2023). “What’s Trending in Difference-in-Differences?” Journal of Econometrics, 235(2), 2218-2244. Link\n\n6\nInstrumental Variables and Regression Discontinuity Design\nTuesday: Mellon, Jonathan. (2024). “Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations.” AJPS. Link - Thursday: Noack, Frederik, et al. (2022). “A Bird’s Eye View of Farm Size and Biodiversity.” AJAE, 104(4), 1460–84. Link\n\n7\nStandard Errors and Spatial Considerations\nIntroduction to spatial considerations in statistical models.\n\n8\nRemote Sensing and Machine Learning in Causal Analysis\nProctor, J., et al. (2023). “Parameter Recovery Using Remotely Sensed Variables.” NBER Working Paper. - Skim: Baylis, K., et al. (2021). “Machine Learning in Agricultural Economics.” Handbook of Agricultural Economics. Link\n\n9\nMachine Learning in Causal Analysis\nNo class on Thurs, Nov 28: Thanksgiving.\n\n10\nPresentations\nFinal Paper Proposal: Due Dec 9.\n\n\n\n\n",
-      "last_modified": "2024-09-27T13:40:25-07:00"
+      "last_modified": "2024-09-27T13:46:02-07:00"
     },
     {
       "path": "index.html",
@@ -30,7 +30,7 @@
       "description": "Causal Analysis in Space\n",
       "author": [],
       "contents": "\nInstructor Information\n\nInstructor: Kathy Baylis\nOffice Location: 5808 Ellison Hall\nOffice Hours: 9-10 AM on Tuesdays or by appointment\nTerm: Fall 2024\n\nCourse Description\nGEOG 279: Applied Statistics for Geography (Introduction to Causal Analysis in Space) focuses on developing skills in causal analysis within spatial contexts. This course introduces students to key concepts in causal inference, statistical methodologies, and their applications in spatial analysis. Throughout the quarter, students will engage with various statistical techniques, including randomized control trials (RCT), matching, synthetic controls, differences-in-differences (DID), instrumental variables, regression discontinuity design, and machine learning (ML).\nCourse Objectives\nThe course will involve a series of readings, assignments, and practical applications to deepen the understanding of causal analysis in geography. Students will learn to:\nUnderstand the potential outcomes framework for causal inference.\nUtilize causal diagrams to represent relationships in spatial data.\nDesign and implement RCT and power calculations for spatial data.\nApply matching and synthetic control methods to estimate causal effects.\nUse DID and instrumental variables in spatial statistics.\nIncorporate ML and remote sensing in causal analysis for geographical studies.\nCourse Goals\nBy the end of this course, students will be able to:\nInterpret and conduct causal analyses in spatial data.\nImplement various statistical methods for causal inference in geographical research.\nApply statistical tools and methodologies to real-world spatial problems.\nDevelop skills in presenting and discussing statistical findings related to causal analysis.\nCritically assess and apply different causal inference methods to geographic data.\n\n\n\n",
-      "last_modified": "2024-09-27T13:40:26-07:00"
+      "last_modified": "2024-09-27T13:46:02-07:00"
     },
     {
       "path": "readings.html",
@@ -38,7 +38,7 @@
       "description": " List of readings for the GEOG 279 course.",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-09-27T13:40:26-07:00"
+      "last_modified": "2024-09-27T13:46:03-07:00"
     },
     {
       "path": "resources.html",
@@ -46,7 +46,7 @@
       "description": "List of resources for the GEOG 279 course.",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-09-27T13:40:27-07:00"
+      "last_modified": "2024-09-27T13:46:03-07:00"
     }
   ],
   "collections": []
