@@ -1,4 +1,4 @@
 ---
-title: "Readings"
-description: " List of readings for the GEOG 279 course."
+title: "Code Space"
+description: " Code Resources for the GEOG 279 course."
 ---
