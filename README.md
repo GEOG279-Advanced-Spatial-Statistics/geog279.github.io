@@ -1,7 +1,7 @@
 # 🌎 Welcome to the GEOG 279 Course Website!
 
 Welcome to the **GEOG 279: Applied Statistics for Geography** – your one-stop hub for all things related to causal analysis in space! 🚀 
-You can access the course dedicated website [here](https://bit.ly/4eDoloV)). 
+You can access the course dedicated website [here](https://bit.ly/4eDoloV). 
 
 ## 🌟 What You’ll Find Here
 - **📅 Course Schedule:** Stay on top of all the weekly topics, class times, and deadlines.
