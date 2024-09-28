@@ -4,3 +4,6 @@
 .Ruserdata
 README.md
 .DS_Store
+# Ignore temporary site files
+/site_libs/
+docs/temp/

@@ -1,0 +1,7 @@
+---
+title: "Codespace"
+description: |
+  Welcome to the Codespace for GEOG 279! Here you'll find code snippets, resources, and examples to help you with the course assignments.
+output: distill::distill_article
+---
+
