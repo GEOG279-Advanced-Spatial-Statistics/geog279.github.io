@@ -1,0 +1,53 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-09-27T20:29:05-07:00"
+    },
+    {
+      "path": "assignments.html",
+      "title": "Assignments",
+      "description": "List of assignments for the GEOG 279 course.",
+      "author": [],
+      "contents": "\nWeek\nAssignment\nDue Date\nWeek 2\nAssignment 1 (includes paper topic)\nThurs, Oct 10\nWeek 4\nAssignment 2\nThurs, Oct 24\nWeek 6\nAssignment 3\nThurs, Nov 7\nWeek 8\nAssignment 4\nThurs, Nov 21\nWeek 10\nFinal Paper Proposal\nMon, Dec 9\n\n\n\n",
+      "last_modified": "2024-09-27T20:29:05-07:00"
+    },
+    {
+      "path": "codespace.html",
+      "title": "Codespace",
+      "description": "Welcome to the Codespace for GEOG 279! Here you'll find code snippets, resources, and examples to help you with the course assignments.\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-09-27T20:29:06-07:00"
+    },
+    {
+      "path": "course_schedule.html",
+      "title": "Course Schedule",
+      "description": "Weekly schedule for the GEOG 279 course.",
+      "author": [],
+      "contents": "\nCourse Syllabus\nWeek\nDay\nTopic\nReadings\nSlides\nNotes\n0\nThursday\nWhy causal analysis?\n\nWhy causal analysis? Slides\n\n1\nTuesday\nPotential outcomes framework\nFerraro et al., 2018 Skim: Holland, P.W. (1986), “Statistics and Causal Inference.”\nSlides\n\n\nThursday\nNo Class\n\n\nNo Class\n2\nTuesday\nCausal Diagrams\nThe Effect Book\nSlides\n\n\nThursday\nCausal Diagrams\nBrodie, J.F., et al. (2023), “Landscape-Scale Benefits of Protected Areas for Tropical Biodiversity.”\n\nAssignment 1 due Thurs, Oct 10 (includes paper topic)\n3\nTuesday\nRandomized Control Trials (RCT) and Power Calculations\nImpact Evaluation in Practice (ch4)\nSlides\n\n\nThursday\nRandomized Control Trials (RCT) and Power Calculations\nImpact Evaluation in Practice (ch15)\n\n\n4\nTuesday\nMatching and Synthetic Controls\nHoney-Rosés, J., et al. (2011) Skim: Rubin, D. B. (1974), “Original Work”\nSlides\n\n\nThursday\nMatching and Synthetic Controls\nAlberto Abadie, Alexis Diamond & Jens Hainmueller (2012)\nSlides\n\n5\nTuesday\nDifferences-in-Differences (DID) and Staggered roll-out\nWauchope HS, Jones JPG, et al. (2022)\nSlides\n\n\nThursday\nDifferences-in-Differences and Staggered roll-out\nJonathan Roth, Pedro H.C. Sant’Anna, Alyssa Bilinski, John Poe. (2023)\n\nAssignment 2 due Thurs, Oct 24\n6\nTuesday\nInstrumental Variables and Regression Discontinuity Design\nMellon, 2024\nSlides\n\n\nThursday\nInstrumental Variables and Regression Discontinuity Design\nNoack, Frederik, Ashley Larsen, Johannes Kamp, and Christian Levers. (2022)\n\nAssignment 3 due Thurs, Nov 7\n7\nTuesday\nStandard errors and spatial considerations\n\nSlides\n\n\nThursday\n\n\n\n\n8\nTuesday\nRemote Sensing and Machine Learning in Causal Analysis\nProctor, J., Carleton, T., Sum, S. (2023)\nSlides\n\n\nThursday\nRemote Sensing and Machine Learning in Causal Analysis\nBaylis, K., T. Heckelei, H. Storm. (2021)\n\nAssignment 4 due Thurs, Nov 21\n9\nTuesday\nMachine Learning in Causal Analysis\n-\nSlides\n\n\nThursday\nNo Class (Thanksgiving)\n\n\nThanksgiving\n10\nTuesday\nFinal Presentations\n-\nSlides\nFinal Paper Proposal due Dec 9th\n\n\n\n",
+      "last_modified": "2024-09-27T20:29:06-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "GEOG 279 Course Overview",
+      "description": "Causal Analysis in Space\n",
+      "author": [],
+      "contents": "\n\nContents\nInstructor Information\nCourse Description\nCourse Objectives\nCourse Goals\nGrade\n\nInstructor Information\n\nInstructor: Kathy Baylis\nOffice Location: 5808 Ellison Hall\nOffice Hours: 9-10 AM on Tuesdays or by appointment\nTerm: Fall 2024\n\nCourse Description\nGEOG 279: Applied Statistics for Geography (Introduction to Causal Analysis in Space) focuses on developing skills in causal analysis within spatial contexts. This course introduces students to key concepts in causal inference, statistical methodologies, and their applications in spatial analysis. Throughout the quarter, students will engage with various statistical techniques, including randomized control trials (RCT), matching, synthetic controls, differences-in-differences (DID), instrumental variables, regression discontinuity design, and machine learning (ML).\nCourse Objectives\nThe course will involve a series of readings, assignments, and practical applications to deepen the understanding of causal analysis in geography. Students will learn to:\nUnderstand the potential outcomes framework for causal inference.\nUtilize causal diagrams to represent relationships in spatial data.\nDesign and implement RCT and power calculations for spatial data.\nApply matching and synthetic control methods to estimate causal effects.\nUse DID and instrumental variables in spatial statistics.\nIncorporate ML and remote sensing in causal analysis for geographical studies.\nCourse Goals\nBy the end of this course, students will be able to:\nInterpret and conduct causal analyses in spatial data.\nImplement various statistical methods for causal inference in geographical research.\nApply statistical tools and methodologies to real-world spatial problems.\nDevelop skills in presenting and discussing statistical findings related to causal analysis.\nCritically assess and apply different causal inference methods to geographic data.\nGrade\nAssignments details are outlined under the Assignments tab. The grade breakdown is as follows:\n40% Assignments\n10% Presentation\n50% Paper proposal\n\n\n\n",
+      "last_modified": "2024-09-27T20:29:07-07:00"
+    },
+    {
+      "path": "resources.html",
+      "title": "Resources",
+      "description": "List of resources for the GEOG 279 course.",
+      "author": [],
+      "contents": "\nResource Type\nTitle\nLink\nVideos\nCausal Inference Playlist\nWatch Here\nBooks\nImpact Evaluation in Practice\nRead Here\n\nThe Book of Why\nDetails Here\n\nCausal Inference: What If\nDetails Here\n\nMostly Harmless Econometrics: An Empiricist’s Companion\nRead Here\nArticles\nThe Effect: An Introduction to Research Design and Causality\nRead Here\n\nAngrist, J. D., & Pischke, J.-S. (2009)\nRead Here\n\n\n\n",
+      "last_modified": "2024-09-27T20:29:07-07:00"
+    }
+  ],
+  "collections": []
+}
