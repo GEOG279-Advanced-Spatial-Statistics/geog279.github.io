@@ -23,7 +23,7 @@ By the end of this course, you’ll be a data wizard ready to tackle real-world 
 - **Instructor:** Kathy Baylis
 
 ## 🗺️ How to Use This Site
-1. **Navigate** through this [link](bit.ly/4eDoloV)) to find what you need:
+1. **Navigate** through this [link](https://bit.ly/4eDoloV) to find what you need:
    - *Course Schedule:* Weekly breakdown of topics and readings.
    - *Assignments:* Get the details on what’s due and when.
    - *Readings:* Direct links to all course materials.
