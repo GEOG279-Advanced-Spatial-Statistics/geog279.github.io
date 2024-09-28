@@ -13,13 +13,14 @@ navbar:
       href: course_schedule.html
     - text: "Assignments"
       href: assignments.html
-    - text: "Readings"
-      href: readings.html
+    - text: "Codespace"
+      href: codespace.html
+      icon: fa-code
     - text: "Resources"
       href: resources.html
     - text: "Contact"
-      icon: fa-envelope
       href: "mailto:baylis@ucsb.edu"
+      icon: fa-envelope
     - icon: fab fa-github
       href: https://github.com/GEOG279-Advanced-Spatial-Statistics
   logo: images/logo.png

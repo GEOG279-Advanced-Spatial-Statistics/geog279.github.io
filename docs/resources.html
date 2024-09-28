@@ -2188,26 +2188,58 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     align-items: center;     /* Vertically center the content */
   }
 
-  /* Align the logo/title to the right */
-  .distill-site-nav .navbar-brand {
-    order: 2; /* Move logo to the right */
-    margin-left: auto; /* Push logo to the right side */
-  }
-
   .distill-site-nav a {
     color: inherit;
     text-decoration: none;
     padding: 0 15px;
+    display: inline-block; /* Ensure the size is consistent across items */
   }
 
-  .distill-site-nav a:hover {
+  /* Dropdown Menu Style */
+  .distill-site-nav .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .distill-site-nav .dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #607d8b; /* Blue-gray */
+    min-width: 160px; /* Minimum width for dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow for better visibility */
+    z-index: 1;
+    padding: 0; /* Remove padding to prevent extra spacing */
+  }
+
+  .distill-site-nav .dropdown-content a {
+    color: #ffcc80; /* Light orange text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Stack dropdown items vertically */
+    font-size: 17px; /* Set font size to match other nav items */
+  }
+
+  .distill-site-nav .dropdown-content a:hover {
+    background-color: #00796b; /* Teal on hover */
     color: white;
   }
 
+  /* Show the dropdown menu on hover */
+  .distill-site-nav .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Ensure the 'Resources' tab is the same size as others */
+  .distill-site-nav .nav-link,
+  .distill-site-nav .dropdown > a {
+    padding: 0 15px; /* Consistent padding for all navbar items */
+    font-size: 17px; /* Ensure consistent font size */
+    color: inherit;
+  }
+
   /* Adjust the size of the logo in the navbar */
-  .distill-site-nav .navbar-brand img {
-      height: 100px; /* Adjusted the height to make the logo larger */
-      width: auto;   /* Maintain aspect ratio */
+  .distill-site-header .logo img{
+    max-height: 40px; /* Makes logo bigger, default was 20px */
   }
 
   /* Header Styles */
@@ -2248,15 +2280,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: white;
   }
 
-  /* Body Text */
-  body {
-    font-family: "Georgia", serif; /* Changed to a serif font */
-    background-color: #f4f4f9; /* Light gray background */
-    color: #333333;
-    line-height: 1.8; /* Increased line-height for better readability */
-    font-size: 20px; /* Increased body font size */
-    padding: 20px;
-  }
+
 
   /* Callout Boxes */
   .callout-note {
@@ -2266,11 +2290,40 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin: 20px 0;
   }
 
+
+  /* General Body Text */
+  body {
+    font-family: "Georgia", serif; /* Ensures consistent font family */
+    color: #333333; /* Ensures consistent text color */
+    line-height: 1.8; /* Line-height for readability */
+    font-size: 20px; /* Uniform font size for body text */
+    background-color: #f4f4f9; /* Light gray background */
+    padding: 20px;
+  }
+
+  /* Header Styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif !important; /* Force the use of Georgia font */
+    color: #455a64 !important; /* Dark slate gray */
+    font-weight: 400 !important; /* Normal font weight */
+    margin-top: 20px !important; /* Add some spacing before headers */
+    line-height: 1.4 !important; /* Adjust line height for headers */
+  }
+
+  /* Paragraphs and Lists */
+  p, ul, ol {
+    font-family: "Georgia", serif; /* Consistent font for paragraphs and lists */
+    font-size: 20px; /* Uniform font size */
+  }
+
   /* Table Styles */
   table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    font-family: "Georgia", serif; /* Ensures consistent font family */
+    font-size: 20px; /* Ensures consistent font size */
+    color: #333333; /* Ensures consistent text color */
   }
 
   th, td {
@@ -2281,18 +2334,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   th {
     background-color: #607d8b; /* Blue-gray */
     color: white;
-    font-size: 1.1em; /* Increased font size */
+    font-weight: bold; /* Font weight for table headers */
+  }
+
+  td {
+    font-weight: normal; /* Normal font weight for table data */
   }
 
   /* Link Styles */
   a {
     color: #00796b; /* Teal */
     text-decoration: none;
-    font-size: 18px; /* Increased link font size */
+    font-size: inherit; /* Inherit the font size from the surrounding text */
   }
 
   a:hover {
     text-decoration: underline;
+  }
+
+  /* Ensure links within tables have consistent font size */
+  th a, td a {
+    font-size: inherit; /* Inherit font size from the parent th or td */
+  }
+  /* Dropdown Navbar Color on Mobile */
+  @media screen and (max-width: 768px) {
+    .distill-site-nav.responsive {
+      background: rgba(255, 255, 255, 0.99);
+    }
   }
 
   /* Print Styles */
@@ -2496,7 +2564,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </a>
 <a href="course_schedule.html">Course Schedule</a>
 <a href="assignments.html">Assignments</a>
-<a href="readings.html">Readings</a>
+<a href="codespace.html" aria-label="Codespace">
+<i class="fa fa-code" aria-hidden="true"></i>
+</a>
 <a href="resources.html">Resources</a>
 <a href="mailto:baylis@ucsb.edu" aria-label="Contact">
 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -2522,6 +2592,57 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 63%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Resource Type</strong></th>
+<th><strong>Title</strong></th>
+<th><strong>Link</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Videos</strong></td>
+<td>Causal Inference Playlist</td>
+<td><a href="https://www.youtube.com/playlist?list=PLrT2bltLvf_Ak1hKzm0C-Yr1UD08XJ-H8">Watch Here</a></td>
+</tr>
+<tr class="even">
+<td><strong>Books</strong></td>
+<td>Impact Evaluation in Practice</td>
+<td><a href="Books/9781464807794.pdf">Read Here</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>The Book of Why</td>
+<td><a href="http://repo.darmajaya.ac.id/5342/1/The%20book%20of%20why_%20the%20new%20science%20of%20cause%20and%20effect%20%28%20PDFDrive%20%29.pdf">Details Here</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Causal Inference: What If</td>
+<td><a href="https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/01/hernanrobins_WhatIf_2jan24.pdf">Details Here</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Mostly Harmless Econometrics: An Empiricist’s Companion</td>
+<td><a href="Books/mostly_harmless_econometrics.pdf">Read Here</a></td>
+</tr>
+<tr class="even">
+<td><strong>Articles</strong></td>
+<td>The Effect: An Introduction to Research Design and Causality</td>
+<td><a href="https://theeffectbook.net/">Read Here</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Angrist, J. D., &amp; Pischke, J.-S. (2009)</td>
+<td><a href="Books/mostly_harmless_econometrics.pdf">Read Here</a></td>
+</tr>
+</tbody>
+</table>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

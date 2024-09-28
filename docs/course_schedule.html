@@ -2188,26 +2188,58 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     align-items: center;     /* Vertically center the content */
   }
 
-  /* Align the logo/title to the right */
-  .distill-site-nav .navbar-brand {
-    order: 2; /* Move logo to the right */
-    margin-left: auto; /* Push logo to the right side */
-  }
-
   .distill-site-nav a {
     color: inherit;
     text-decoration: none;
     padding: 0 15px;
+    display: inline-block; /* Ensure the size is consistent across items */
   }
 
-  .distill-site-nav a:hover {
+  /* Dropdown Menu Style */
+  .distill-site-nav .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .distill-site-nav .dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #607d8b; /* Blue-gray */
+    min-width: 160px; /* Minimum width for dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow for better visibility */
+    z-index: 1;
+    padding: 0; /* Remove padding to prevent extra spacing */
+  }
+
+  .distill-site-nav .dropdown-content a {
+    color: #ffcc80; /* Light orange text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* Stack dropdown items vertically */
+    font-size: 17px; /* Set font size to match other nav items */
+  }
+
+  .distill-site-nav .dropdown-content a:hover {
+    background-color: #00796b; /* Teal on hover */
     color: white;
   }
 
+  /* Show the dropdown menu on hover */
+  .distill-site-nav .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Ensure the 'Resources' tab is the same size as others */
+  .distill-site-nav .nav-link,
+  .distill-site-nav .dropdown > a {
+    padding: 0 15px; /* Consistent padding for all navbar items */
+    font-size: 17px; /* Ensure consistent font size */
+    color: inherit;
+  }
+
   /* Adjust the size of the logo in the navbar */
-  .distill-site-nav .navbar-brand img {
-      height: 100px; /* Adjusted the height to make the logo larger */
-      width: auto;   /* Maintain aspect ratio */
+  .distill-site-header .logo img{
+    max-height: 40px; /* Makes logo bigger, default was 20px */
   }
 
   /* Header Styles */
@@ -2248,15 +2280,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: white;
   }
 
-  /* Body Text */
-  body {
-    font-family: "Georgia", serif; /* Changed to a serif font */
-    background-color: #f4f4f9; /* Light gray background */
-    color: #333333;
-    line-height: 1.8; /* Increased line-height for better readability */
-    font-size: 20px; /* Increased body font size */
-    padding: 20px;
-  }
+
 
   /* Callout Boxes */
   .callout-note {
@@ -2266,11 +2290,40 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin: 20px 0;
   }
 
+
+  /* General Body Text */
+  body {
+    font-family: "Georgia", serif; /* Ensures consistent font family */
+    color: #333333; /* Ensures consistent text color */
+    line-height: 1.8; /* Line-height for readability */
+    font-size: 20px; /* Uniform font size for body text */
+    background-color: #f4f4f9; /* Light gray background */
+    padding: 20px;
+  }
+
+  /* Header Styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", serif !important; /* Force the use of Georgia font */
+    color: #455a64 !important; /* Dark slate gray */
+    font-weight: 400 !important; /* Normal font weight */
+    margin-top: 20px !important; /* Add some spacing before headers */
+    line-height: 1.4 !important; /* Adjust line height for headers */
+  }
+
+  /* Paragraphs and Lists */
+  p, ul, ol {
+    font-family: "Georgia", serif; /* Consistent font for paragraphs and lists */
+    font-size: 20px; /* Uniform font size */
+  }
+
   /* Table Styles */
   table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    font-family: "Georgia", serif; /* Ensures consistent font family */
+    font-size: 20px; /* Ensures consistent font size */
+    color: #333333; /* Ensures consistent text color */
   }
 
   th, td {
@@ -2281,18 +2334,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   th {
     background-color: #607d8b; /* Blue-gray */
     color: white;
-    font-size: 1.1em; /* Increased font size */
+    font-weight: bold; /* Font weight for table headers */
+  }
+
+  td {
+    font-weight: normal; /* Normal font weight for table data */
   }
 
   /* Link Styles */
   a {
     color: #00796b; /* Teal */
     text-decoration: none;
-    font-size: 18px; /* Increased link font size */
+    font-size: inherit; /* Inherit the font size from the surrounding text */
   }
 
   a:hover {
     text-decoration: underline;
+  }
+
+  /* Ensure links within tables have consistent font size */
+  th a, td a {
+    font-size: inherit; /* Inherit font size from the parent th or td */
+  }
+  /* Dropdown Navbar Color on Mobile */
+  @media screen and (max-width: 768px) {
+    .distill-site-nav.responsive {
+      background: rgba(255, 255, 255, 0.99);
+    }
   }
 
   /* Print Styles */
@@ -2496,7 +2564,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </a>
 <a href="course_schedule.html">Course Schedule</a>
 <a href="assignments.html">Assignments</a>
-<a href="readings.html">Readings</a>
+<a href="codespace.html" aria-label="Codespace">
+<i class="fa fa-code" aria-hidden="true"></i>
+</a>
 <a href="resources.html">Resources</a>
 <a href="mailto:baylis@ucsb.edu" aria-label="Contact">
 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -2525,85 +2595,183 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p><a href="syllabus/GEOG279_Syllabus_Fall_24.pdf">Course Syllabus</a></p>
 <table>
 <colgroup>
-<col style="width: 2%" />
-<col style="width: 15%" />
-<col style="width: 79%" />
 <col style="width: 3%" />
+<col style="width: 5%" />
+<col style="width: 16%" />
+<col style="width: 64%" />
+<col style="width: 4%" />
+<col style="width: 6%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><strong>Week</strong></th>
+<th><strong>Day</strong></th>
 <th><strong>Topic</strong></th>
 <th><strong>Readings</strong></th>
-<th><strong>PPT Slides</strong></th>
+<th><strong>Slides</strong></th>
+<th><strong>Notes</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>0</strong></td>
-<td>Why Causal Analysis?</td>
-<td>Introduction to causal analysis.</td>
-<td><a href="slides/Intro_to_causality.pptx">PPT</a></td>
+<td>0</td>
+<td>Thursday</td>
+<td>Why causal analysis?</td>
+<td></td>
+<td><a href="slides/Intro_to_causality.pptx">Why causal analysis? Slides</a></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><strong>1</strong></td>
-<td>Potential Outcomes Framework</td>
-<td>Ferraro et al. 2018: <a href="#">Link</a> - Skim: Holland, P. W. (1986). “Statistics and Causal Inference.” JASA, 81(396), <em>945</em>–960. Link</td>
+<td>1</td>
+<td>Tuesday</td>
+<td>Potential outcomes framework</td>
+<td><a href="https://doi.org/10.1073/pnas.18055631">Ferraro et al., 2018</a> <br> <span style="color: gray; font-style: italic;">Skim: <a href="https://doi.org/10.2307/2289064">Holland, P.W. (1986)</a>, “Statistics and Causal Inference.”</span></td>
+<td><a href="slides/Intro_to_causality.pptx">Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>2</strong></td>
+<td></td>
+<td>Thursday</td>
+<td><span style="color: red;"><strong>No Class</strong></span></td>
+<td></td>
+<td></td>
+<td><span style="color: red;">No Class</span></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Tuesday</td>
 <td>Causal Diagrams</td>
-<td>Tuesday: Huntington, Nick, <em>The Effect</em> Chapters 6 and 7. <a href="#">Link</a> - Thursday: Brodie, Jedediah F., et al. (2023). “Landscape-Scale Benefits of Protected Areas.” Nature, 620(79<em>75), 8</em>07–12. Link</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>3</strong></td>
-<td>Randomized Control Trials and Power Calculations</td>
-<td>Tuesday: Chapter 4 from Gertler, Paul J., et al. (2016). <em>Impact Evaluation in Practice.</em> - Thursday: Chapter 15 from the same book.</td>
+<td><a href="https://theeffectbook.net/index.html">The Effect Book</a></td>
+<td><a href="#">Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>4</strong></td>
+<td></td>
+<td>Thursday</td>
+<td>Causal Diagrams</td>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/37612395/">Brodie, J.F., et al. (2023)</a>, “Landscape-Scale Benefits of Protected Areas for Tropical Biodiversity.”</td>
+<td></td>
+<td><strong>Assignment 1 due Thurs, Oct 10 (includes paper topic)</strong></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Tuesday</td>
+<td>Randomized Control Trials (RCT) and Power Calculations</td>
+<td><a href="Books/9781464807794.pdf">Impact Evaluation in Practice</a> (<strong>ch4</strong>)</td>
+<td><a href="#">Slides</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Thursday</td>
+<td>Randomized Control Trials (RCT) and Power Calculations</td>
+<td><a href="Books/9781464807794.pdf">Impact Evaluation in Practice</a> (<strong>ch15</strong>)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Tuesday</td>
 <td>Matching and Synthetic Controls</td>
-<td>Tuesday: Honey-Rosés, Jordi, et al. (2011). “A Spatially Explicit Estimate of Avoided Forest Loss.” <em>Conservation Biology</em>, 25(5), 1032–43. <a href="#">Link</a> - Thursday: Abadie, Alberto, et al. (2010). “Synthetic Control Methods for Comparative Case Studies.” JASA, 105(490)<em>, 49</em>3–505.</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>5</strong></td>
-<td>Differences-in-Differences and Staggered Roll-Out</td>
-<td>Tuesday: Wauchope, Hannah S., et al. (2022). “Protected Areas Have a Mixed Impact on Waterbirds, but Management Helps.” <em>Nature</em>, 605(7908), 103–7. <a href="#">Link</a> - Thursday: Roth, Jonathan, et al. (2023). “What’s Trending in Difference-in-Differences?” Journal of Eco<em>nometrics, 235(2), 2218</em>-2244. Link</td>
+<td><a href="https://conbio.onlinelibrary.wiley.com/doi/10.1111/j.1523-1739.2011.01729.x">Honey-Rosés, J., et al. (2011)</a> <br> <span style="color: gray; font-style: italic;">Skim: <a href="journals/1975-06502-001.pdf">Rubin, D. B. (1974)</a>, “Original Work”</span></td>
+<td><a href="#">Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>6</strong></td>
+<td></td>
+<td>Thursday</td>
+<td>Matching and Synthetic Controls</td>
+<td><a href="https://www.tandfonline.com/doi/citedby/10.1198/jasa.2009.ap08746?scroll=top&amp;needAccess=true">Alberto Abadie, Alexis Diamond &amp; Jens Hainmueller (2012)</a></td>
+<td><a href="#">Slides</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Tuesday</td>
+<td>Differences-in-Differences (DID) and Staggered roll-out</td>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/35444280/">Wauchope HS, Jones JPG, et al. (2022)</a></td>
+<td><a href="#">Slides</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Thursday</td>
+<td>Differences-in-Differences and Staggered roll-out</td>
+<td><a href="https://doi.org/10.1016/j.jeconom.2023.03.008">Jonathan Roth, Pedro H.C. Sant’Anna, Alyssa Bilinski, John Poe. (2023)</a></td>
+<td></td>
+<td><strong>Assignment 2 due Thurs, Oct 24</strong></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Tuesday</td>
 <td>Instrumental Variables and Regression Discontinuity Design</td>
-<td>Tuesday: Mellon, Jonathan. (2024). “Rain, Rain, Go Away: 194 Potential Exclusion-Restriction Violations.” <em>AJPS</em>. <a href="#">Link</a> - Thursday: Noack, Frederik, et al. (2022). “A Bird’s Eye View of Farm Size and Biodiversity.” AJAE, 104(4), <em>1460</em>–84. Link</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>7</strong></td>
-<td>Standard Errors and Spatial Considerations</td>
-<td>Introduction to spatial considerations in statistical models.</td>
+<td><a href="https://doi.org/10.1111/ajps.12894">Mellon, 2024</a></td>
+<td><a href="#">Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>8</strong></td>
+<td></td>
+<td>Thursday</td>
+<td>Instrumental Variables and Regression Discontinuity Design</td>
+<td><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12274">Noack, Frederik, Ashley Larsen, Johannes Kamp, and Christian Levers. (2022)</a></td>
+<td></td>
+<td><strong>Assignment 3 due Thurs, Nov 7</strong></td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Tuesday</td>
+<td>Standard errors and spatial considerations</td>
+<td></td>
+<td><a href="#">Slides</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Thursday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Tuesday</td>
 <td>Remote Sensing and Machine Learning in Causal Analysis</td>
-<td>Proctor, J., et al. (2023). “Parameter Recovery Using Remotely Sensed Variables.” <em>NBER Working Paper.</em> - Skim: Baylis, K., et al. (2021). “Machine Learning in Agricultural Economics.” Handbook of Ag<em>ricultural Economics. Link</em></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>9</strong></td>
-<td>Machine Learning in Causal Analysis</td>
-<td>No class on Thurs, Nov 28: Thanksgiving.</td>
+<td><a href="https://www.nber.org/papers/w30861?utm_campaign=ntwh&amp;utm_medium=email&amp;utm_source=ntwg3">Proctor, J., Carleton, T., Sum, S. (2023)</a></td>
+<td><a href="#">Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>10</strong></td>
-<td>Presentations</td>
-<td>Final Paper Proposal: Due Dec 9.</td>
 <td></td>
+<td>Thursday</td>
+<td>Remote Sensing and Machine Learning in Causal Analysis</td>
+<td><a href="https://doi.org/10.1016/bs.hesagr.2021.10.007">Baylis, K., T. Heckelei, H. Storm. (2021)</a></td>
+<td></td>
+<td><strong>Assignment 4 due Thurs, Nov 21</strong></td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Tuesday</td>
+<td>Machine Learning in Causal Analysis</td>
+<td>-</td>
+<td><a href="#">Slides</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Thursday</td>
+<td><span style="color: red;"><strong>No Class</strong> (Thanksgiving)</span></td>
+<td></td>
+<td></td>
+<td><span style="color: red;">Thanksgiving</span></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Tuesday</td>
+<td>Final Presentations</td>
+<td>-</td>
+<td><a href="#">Slides</a></td>
+<td><strong>Final Paper Proposal due Dec 9th</strong></td>
 </tr>
 </tbody>
 </table>

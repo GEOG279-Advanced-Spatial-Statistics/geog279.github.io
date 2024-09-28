@@ -3,8 +3,13 @@ title: "GEOG 279 Course Overview"
 description: |
   Causal Analysis in Space
 site: distill::distill_website
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true # Enable table of contents
+    toc_depth: 2 # Set the depth of the TOC (levels 1 and 2 headers)
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -42,7 +47,7 @@ The course will involve a series of readings, assignments, and practical applica
 - Use DID and instrumental variables in spatial statistics.
 - Incorporate ML and remote sensing in causal analysis for geographical studies.
 
-## [Course Goals](#course-goals)
+# [Course Goals](#course-goals)
 
 By the end of this course, students will be able to:
 
@@ -51,3 +56,13 @@ By the end of this course, students will be able to:
 3. Apply statistical tools and methodologies to real-world spatial problems.
 4. Develop skills in presenting and discussing statistical findings related to causal analysis.
 5. Critically assess and apply different causal inference methods to geographic data.
+
+
+# [Grade](#course-garde)
+
+Assignments details are outlined under the [Assignments](/assignments.Rmd) tab. The grade breakdown is as follows:
+
+- 40% Assignments
+- 10% Presentation
+- 50% Paper proposal 
+
