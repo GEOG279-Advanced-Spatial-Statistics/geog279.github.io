@@ -11,4 +11,4 @@ description: "List of resources for the GEOG 279 course."
 |                     | Causal Inference: What If                          | [Details Here](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/01/hernanrobins_WhatIf_2jan24.pdf) |
 |                     | Mostly Harmless Econometrics: An Empiricist's Companion | [Read Here](books/mostly_harmless_econometrics.pdf) |
 | **Articles**        | The Effect: An Introduction to Research Design and Causality | [Read Here](https://theeffectbook.net/) |
-|                     | Angrist, J. D., & Pischke, J.-S. (2009)            | [Read Here](Books/mostly_harmless_econometrics.pdf) |
+
