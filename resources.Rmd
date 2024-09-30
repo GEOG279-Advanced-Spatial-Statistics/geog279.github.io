@@ -5,7 +5,7 @@ description: "List of resources for the GEOG 279 course."
 
 | **Resource Type**   | **Title**                                           | **Link** |
 |---------------------|-----------------------------------------------------|----------|
-| **Videos**          | Causal Inference Playlist                           | [Watch Here](https://www.youtube.com/playlist?list=PLrT2bltLvf_Ak1hKzm0C-Yr1UD08XJ-H8) |
+| **Videos**          | Causal Inference Playlist                           | [Watch Here](https://www.youtube.com/playlist?list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8) |
 | **Books**           | Impact Evaluation in Practice                       | [Read Here](books/impact_eval_book.pdf) |
 |                     | The Book of Why                                     | [Details Here](http://repo.darmajaya.ac.id/5342/1/The%20book%20of%20why_%20the%20new%20science%20of%20cause%20and%20effect%20%28%20PDFDrive%20%29.pdf) |
 |                     | Causal Inference: What If                          | [Details Here](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/01/hernanrobins_WhatIf_2jan24.pdf) |
