@@ -60,7 +60,7 @@ By the end of this course, students will be able to:
 
 # [Grade](#course-garde)
 
-Assignments details are outlined under the [Assignments](docs/assignments.html) tab. The grade breakdown is as follows:
+Assignments details are outlined under the [Assignments](assignments.html) tab. The grade breakdown is as follows:
 
 - 40% Assignments
 - 10% Presentation
