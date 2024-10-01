@@ -22,7 +22,7 @@ output:
 |                                    | Data manipulation in Google Colab             | [Pandas Example Notebook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.01-Introducing-Pandas-Objects.ipynb) |
 | **Data Visualization**             | Matplotlib Pyplot Tutorial                    | [Matplotlib Pyplot Tutorial](https://matplotlib.org/stable/tutorials/introductory/pyplot.html) |
 |                                    | Seaborn Visualization Library                 | [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)                    |
-|                                    | Visualization examples in Google Colab        | [Visualization Example Notebook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-to-Matplotlib.ipynb) |
+|                                    | Visualization examples in Google Colab        | [Visualization Example Notebook](https://colab.research.google.com/github/walkerke/geog30323/blob/master/08-data-visualization.ipynb) |
 | **Geospatial Analysis**            | Geopandas Introduction and Documentation      | [Geopandas Documentation](https://geopandas.org/en/stable/getting_started/introduction.html) |
 |                                    | Spatial Operations with Geopandas             | [Geospatial Operations Notebook](https://geopandas.org/en/stable/gallery/plotting_basemap_background.html) |
 |                                    | Interactive Mapping with Folium               | [Folium Mapping Tutorial](https://python-visualization.github.io/folium/quickstart.html) |
@@ -37,4 +37,4 @@ output:
 | **GitHub Resources**               | GitHub Guides and Documentation              | [GitHub Docs](https://docs.github.com/en)                                       |                                    | Creating a Repository                        | [GitHub Repo Creation](https://docs.github.com/en/get-started/quickstart/create-a-repo) |
 **Google Colab Resources**         | Introduction to Google Colab                  | [Google Colab Intro](https://colab.research.google.com/notebooks/intro.ipynb)   |       
 |                                    |Connecting to Google Drive                  | [Accessing Google Drive in Colab](https://colab.research.google.com/notebooks/io.ipynb) |
-|                                    | Colab Tips and Tricks                        | [Colab Tips](https://colab.research.google.com/notebooks/tips_and_tricks.ipynb) |
+
