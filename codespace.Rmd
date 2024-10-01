@@ -14,7 +14,6 @@ output:
 <summary><span style="font-family: 'serif';">Click to expand the table</span></summary>
 
 
-
 | **Topic**                          | **Description**                               | **Link**                                                                        |
 |------------------------------------|-----------------------------------------------|---------------------------------------------------------------------------------|
 | **Data Analysis in Python (Pandas)** | Pandas official tutorials and documentation   | [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/index.html) |
@@ -26,15 +25,18 @@ output:
 | **Geospatial Analysis**            | Geopandas Introduction and Documentation      | [Geopandas Documentation](https://geopandas.org/en/stable/getting_started/introduction.html) |
 |                                    | Spatial Operations with Geopandas             | [Geospatial Operations Notebook](https://geopandas.org/en/stable/gallery/plotting_basemap_background.html) |
 |                                    | Interactive Mapping with Folium               | [Folium Mapping Tutorial](https://python-visualization.github.io/folium/quickstart.html) |
-|                                    | Folium Example                 | [Folium Example](https://python-visualization.github.io/folium/latest/getting_started.html) |
+|                                    | Folium Example                                | [Folium Example](https://python-visualization.github.io/folium/latest/getting_started.html) |
 | **Remote Sensing**                 | Raster Data Analysis with Rasterio            | [Rasterio Documentation](https://rasterio.readthedocs.io/en/latest/quickstart.html) |
 | **Machine Learning**               | Introduction to Scikit-Learn                  | [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html)      |
 |                                    | Scikit-Learn Example Notebooks                | [Scikit-Learn Example Notebooks](https://scikit-learn.org/stable/auto_examples/index.html) |
-| **R Programming**                  | R for Data Science Book                      | [R for Data Science](https://r4ds.had.co.nz/)                                   |
+| **R Programming**                  | R for Data Science Book                      | [R for Data Science](https://r4ds.had.co.nz/)                                   
+|                                    | Applied Causal Analysis with R (Book)               | [Applied Causal Analysis](https://bookdown.org/paul/applied-causal-analysis/)   
 |                                    | Data Visualization with ggplot2               | [ggplot2 Documentation](https://ggplot2.tidyverse.org/)                         |
 |                                    | Spatial Data Analysis with the sf Package     | [sf Package Tutorial](https://r-spatial.github.io/sf/articles/sf1.html)         |
 |                                    | R Markdown Tutorial                          | [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-1.html)                |
-| **GitHub Resources**               | GitHub Guides and Documentation              | [GitHub Docs](https://docs.github.com/en)                                       |                                    | Creating a Repository                        | [GitHub Repo Creation](https://docs.github.com/en/get-started/quickstart/create-a-repo) |
-**Google Colab Resources**         | Introduction to Google Colab                  | [Google Colab Intro](https://colab.research.google.com/notebooks/intro.ipynb)   |       
-|                                    |Connecting to Google Drive                  | [Accessing Google Drive in Colab](https://colab.research.google.com/notebooks/io.ipynb) |
+| **GitHub Resources**               | GitHub Guides and Documentation              | [GitHub Docs](https://docs.github.com/en)                                       |                                    
+|                                    | Creating a Repository                        | [GitHub Repo Creation](https://docs.github.com/en/get-started/quickstart/create-a-repo) |
+| **Google Colab Resources**         | Introduction to Google Colab                  | [Google Colab Intro](https://colab.research.google.com/notebooks/intro.ipynb)   |       
+|                                    | Connecting to Google Drive                   | [Accessing Google Drive in Colab](https://colab.research.google.com/notebooks/io.ipynb) |
 
+</details>
