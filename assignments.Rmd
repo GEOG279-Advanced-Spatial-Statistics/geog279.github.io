@@ -3,7 +3,7 @@ title: "Assignments"
 description: "List of assignments for the GEOG 279 course."
 ---
 
-**Note:** Assignments are to be submitted on Gradescope. Everyone should have received an invite to the GEOG279 Gradescope.
+**Note:** Assignments are to be submitted on Gradescope (Entry code: **2BY85W**). Everyone should have received an invite to the GEOG279 Gradescope.
 
 | **Week** | **Assignment**                                   | **Due Date**       |
 |----------|-------------------------------------------------|--------------------|
