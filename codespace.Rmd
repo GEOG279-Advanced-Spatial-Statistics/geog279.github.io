@@ -10,10 +10,11 @@ output:
 
 # Code Resources and Documentation
 
-<details>
-<summary><span style="font-family: 'serif';">Click to expand the table</span></summary>
+<details style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+<summary><strong><span style="font-family: 'serif'; font-size: 18px; color: #2c3e50;">Click to expand the table</span></strong></summary>
 
-
+<div style="padding: 15px; font-family: 'serif'; font-size: 16px; color: #34495e;">
+  
 | **Topic**                          | **Description**                               | **Link**                                                                        |
 |------------------------------------|-----------------------------------------------|---------------------------------------------------------------------------------|
 | **Data Analysis in Python (Pandas)** | Pandas official tutorials and documentation   | [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/index.html) |
@@ -30,7 +31,7 @@ output:
 | **Machine Learning**               | Introduction to Scikit-Learn                  | [Scikit-Learn User Guide](https://scikit-learn.org/stable/user_guide.html)      |
 |                                    | Scikit-Learn Example Notebooks                | [Scikit-Learn Example Notebooks](https://scikit-learn.org/stable/auto_examples/index.html) |
 | **R Programming**                  | R for Data Science Book                      | [R for Data Science](https://r4ds.had.co.nz/)                                   
-|                                    | Applied Causal Analysis with R (Book)               | [Applied Causal Analysis](https://bookdown.org/paul/applied-causal-analysis/)   
+|                                    | Applied Causal Analysis with R (Book)         | [Applied Causal Analysis](https://bookdown.org/paul/applied-causal-analysis/)   |
 |                                    | Data Visualization with ggplot2               | [ggplot2 Documentation](https://ggplot2.tidyverse.org/)                         |
 |                                    | Spatial Data Analysis with the sf Package     | [sf Package Tutorial](https://r-spatial.github.io/sf/articles/sf1.html)         |
 |                                    | R Markdown Tutorial                          | [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-1.html)                |
@@ -39,4 +40,27 @@ output:
 | **Google Colab Resources**         | Introduction to Google Colab                  | [Google Colab Intro](https://colab.research.google.com/notebooks/intro.ipynb)   |       
 |                                    | Connecting to Google Drive                   | [Accessing Google Drive in Colab](https://colab.research.google.com/notebooks/io.ipynb) |
 
+</div>
+</details>
+
+# Power Analysis
+
+<details style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+<summary><strong><span style="font-family: 'serif'; font-size: 18px; color: #2c3e50;">Click to expand Power Analysis resources</span></strong></summary>
+
+<div style="padding: 15px; font-family: 'serif'; font-size: 16px; color: #34495e;">
+  
+  In this section, you will find resources for conducting power analysis with spatial correlation.
+  
+  <p>Click the badge below to open the notebook in Google Colab and explore the example on power analysis with spatial correlation.</p>
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14XEEpZW75Rc3JfimJkpxNGN0gKFJkoBW?usp=sharing)
+  
+  
+
+   <h3> Additional Power Analysis Resources</h3>
+
+  - [Power Calculations (J-PAL)](https://www.povertyactionlab.org/resource/power-calculations)
+  - [Optimal Design with Empirical Information (OD) by William T. Grant Foundation](https://wtgrantfoundation.org/optimal-design-with-empirical-information-od)
+
+</div>
 </details>
