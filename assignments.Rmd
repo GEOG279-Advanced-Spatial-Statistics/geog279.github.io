@@ -8,7 +8,7 @@ description: "List of assignments for the GEOG 279 course."
 | **Week** | **Assignment**                                   | **Due Date**       |
 |----------|-------------------------------------------------|--------------------|
 | Week 2   | [Assignment 1 (includes paper topic)](https://colab.research.google.com/drive/1SaXpt9wymm00qbPZevf4sHnS0h4RNP-B?usp=sharing) | Thurs, Oct 10      |
-| Week 4   | [Assignment 2](https://colab.research.google.com/drive/1qe7KkR5VX4ByQURT8JEGJZQhRzSr5rdT?usp=sharing)                                     | Thurs, Oct 24      |
+| Week 4   | [Assignment 2](https://colab.research.google.com/drive/1qe7KkR5VX4ByQURT8JEGJZQhRzSr5rdT?usp=sharing)                                     | Tues, Oct 29      |
 | Week 6   | Assignment 3                                     | Thurs, Nov 7       |
 | Week 8   | Assignment 4                                     | Thurs, Nov 21      |
 | Week 10  | Final Paper Proposal                             | Mon, Dec 9         |
