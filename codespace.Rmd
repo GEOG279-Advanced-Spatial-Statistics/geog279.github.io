@@ -37,8 +37,8 @@ output:
 |                                    | R Markdown Tutorial                          | [R Markdown Guide](https://rmarkdown.rstudio.com/lesson-1.html)                |
 | **GitHub Resources**               | GitHub Guides and Documentation              | [GitHub Docs](https://docs.github.com/en)                                       |                                    
 |                                    | Creating a Repository                        | [GitHub Repo Creation](https://docs.github.com/en/get-started/quickstart/create-a-repo) |
-| **Google Colab Resources**         | Introduction to Google Colab                  | [Google Colab Intro](https://colab.research.google.com/notebooks/intro.ipynb)   |       
-|                                    | Connecting to Google Drive                   | [Accessing Google Drive in Colab](https://colab.research.google.com/notebooks/io.ipynb) |
+| **Google Colab Resources**         | Introduction to Google Colab                  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)   |       
+|                                    | Connecting to Google Drive                   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/io.ipynb) |
 
 </div>
 </details>
