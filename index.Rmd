@@ -28,8 +28,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ::: {.callout-note}
 - **Instructor**: Kathy Baylis
 - **Office Location**: 5808 Ellison Hall
-- **Office Hours**: 9-10 AM on Tuesdays or by appointment
-- **Term**: Fall 2024
+- **Office Hours**: 3-4:45 PM on Tuesdays or by appointment
+- **Term**: Fall 2025
 :::
 
 # [Course Description](#course-description)
