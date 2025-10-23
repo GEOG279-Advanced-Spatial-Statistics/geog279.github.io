@@ -31,8 +31,38 @@ By the end of this course, you’ll be a data wizard ready to tackle real-world 
 2. **Bookmark** this page – it's your course companion!
 3. **Explore** the additional resources to level up your knowledge!
 
+## 🔧 Site Maintenance & Updates
+
+### For Collaborators & Instructors
+
+This website is built using R Markdown and Distill. To maintain or update the site:
+
+1. **Create a new branch** for your updates:
+   ```bash
+   git checkout -b update-course-materials
+   ```
+
+2. **Make your changes** to the relevant files in the `docs/` directory
+
+3. **Test your changes** locally before pushing
+
+4. **Commit and push** your branch:
+   ```bash
+   git add .
+   git commit -m "Update course materials"
+   git push origin update-course-materials
+   ```
+
+5. **Create a pull request** to merge your changes into the main branch
+
+### Important Notes:
+- Always work in feature branches, never directly on `main`
+- Test changes locally before pushing
+- The `docs/` directory contains the built website files
+- Contact the repository maintainer for access to source files
+
 ## 📬 Questions or Feedback?
 If you have any questions, suggestions, feel free to [reach out](mailto:baylis@ucsb.edu)! 
 
-## 🚀 Let’s Get Started!
-Ready to dive into the world of causal analysis and spatial statistics? Let’s go! 🗺️🌐
+## 🚀 Let's Get Started!
+Ready to dive into the world of causal analysis and spatial statistics? Let's go! 🗺️🌐

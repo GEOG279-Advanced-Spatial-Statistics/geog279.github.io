@@ -191,3 +191,15 @@ th a, td a {
     display: none;
   }
 }
+
+/* Only widen the course schedule table */
+#course-schedule table {
+  width: 100% !important;
+  table-layout: auto !important;
+}
+
+#course-schedule td,
+#course-schedule th {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
