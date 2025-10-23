@@ -37,29 +37,53 @@ By the end of this course, you’ll be a data wizard ready to tackle real-world 
 
 This website is built using R Markdown and Distill. To maintain or update the site:
 
+#### ✅ **What You CAN Update:**
+- **HTML content** in `docs/` directory (assignments, schedule, etc.)
+- **Course materials** (PDFs, slides, syllabus in `docs/`)
+- **Images and assets** in `docs/images/`
+- **CSS styling** in `docs/css/`
+- **Assignment instructions** and due dates
+- **Course schedule** and readings
+
+#### ❌ **What You CANNOT Update:**
+- Source R Markdown files (`.Rmd`) - these are protected
+- Site configuration files
+- Build system files
+
+#### 📋 **Step-by-Step Update Process:**
+
 1. **Create a new branch** for your updates:
    ```bash
    git checkout -b update-course-materials
    ```
 
-2. **Make your changes** to the relevant files in the `docs/` directory
+2. **Make your changes** to files in the `docs/` directory:
+   - Edit HTML files directly (e.g., `docs/assignments.html`)
+   - Update course materials in `docs/slides/`, `docs/books/`, etc.
+   - Modify styling in `docs/css/theme.css`
 
-3. **Test your changes** locally before pushing
+3. **Test your changes** locally:
+   ```bash
+   # Open docs/index.html in your browser to preview
+   ```
 
 4. **Commit and push** your branch:
    ```bash
    git add .
-   git commit -m "Update course materials"
+   git commit -m "Update [specific content]"
    git push origin update-course-materials
    ```
 
 5. **Create a pull request** to merge your changes into the main branch
 
-### Important Notes:
-- Always work in feature branches, never directly on `main`
-- Test changes locally before pushing
-- The `docs/` directory contains the built website files
-- Contact the repository maintainer for access to source files
+#### 🆘 **Need Major Changes?**
+For significant updates (new pages, major restructuring), contact the repository maintainer who has access to the source files.
+
+#### 📝 **Common Updates:**
+- **Assignment due dates**: Edit `docs/assignments.html`
+- **Course schedule**: Edit `docs/course_schedule.html`
+- **New readings**: Add to `docs/journals/` or `docs/books/`
+- **Updated syllabus**: Replace `docs/syllabus/GEOG279_Syllabus_Fall_24.pdf`
 
 ## 📬 Questions or Feedback?
 If you have any questions, suggestions, feel free to [reach out](mailto:baylis@ucsb.edu)! 
