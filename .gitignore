@@ -1,9 +1,61 @@
+# R and RStudio files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-README.md
+.Rproj
+*.Rproj
+
+# R Markdown source files (keep only the built website)
+*.Rmd
+_site.yml
+
+# Temporary and cache files
 .DS_Store
-# Ignore temporary site files
-/site_libs/
-docs/temp/
+Thumbs.db
+*.tmp
+*.temp
+*~
+
+# R package files
+*.tar.gz
+*.zip
+
+# R session files
+.Rapp.history
+
+# RStudio workspace
+.RData
+.Rhistory
+
+# R Markdown cache
+*_cache/
+*_files/
+
+# R package dependencies
+packrat/
+renv/
+
+# Source files (hide from repository)
+about.Rmd
+assignments.Rmd
+codespace.Rmd
+course_schedule.Rmd
+index.Rmd
+resources.Rmd
+_site.yml
+geog279.github.io.Rproj
+
+# Source directories (hide from repository)
+books/
+css/
+images/
+journals/
+slides/
+syllabus/
+
+# IDE files (keep for collaboration)
+# .idea/
+
+# Keep only the built website in docs/
+# This ensures only the final website files are visible

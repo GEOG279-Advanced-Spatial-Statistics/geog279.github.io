@@ -21,7 +21,7 @@
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -2368,6 +2368,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     .distill-site-nav {
       display: none;
     }
+  }
+
+  /* Only widen the course schedule table */
+  #course-schedule table {
+    width: 100% !important;
+    table-layout: auto !important;
+  }
+
+  #course-schedule td,
+  #course-schedule th {
+    white-space: normal !important;
+    word-wrap: break-word !important;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2524,7 +2536,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2609,8 +2621,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <ul>
 <li><strong>Instructor</strong>: Kathy Baylis</li>
 <li><strong>Office Location</strong>: 5808 Ellison Hall</li>
-<li><strong>Office Hours</strong>: 9-10 AM on Tuesdays or by appointment</li>
-<li><strong>Term</strong>: Fall 2024</li>
+<li><strong>Office Hours</strong>: 3-4:45 PM on Tuesdays or by appointment</li>
+<li><strong>Term</strong>: Fall 2025</li>
 </ul>
 </div>
 <h1 id="course-description"><a href="#course-description">Course Description</a></h1>

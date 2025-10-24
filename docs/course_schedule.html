@@ -21,7 +21,7 @@
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -458,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -2368,6 +2368,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     .distill-site-nav {
       display: none;
     }
+  }
+
+  /* Only widen the course schedule table */
+  #course-schedule table {
+    width: 100% !important;
+    table-layout: auto !important;
+  }
+
+  #course-schedule td,
+  #course-schedule th {
+    white-space: normal !important;
+    word-wrap: break-word !important;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2593,14 +2605,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <p><a href="syllabus/GEOG279_Syllabus_Fall_24.pdf">Course Syllabus</a></p>
+<div id="course-schedule">
 <table>
 <colgroup>
 <col style="width: 3%" />
-<col style="width: 5%" />
+<col style="width: 3%" />
 <col style="width: 16%" />
 <col style="width: 64%" />
 <col style="width: 4%" />
-<col style="width: 6%" />
+<col style="width: 7%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2609,7 +2622,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <th><strong>Topic</strong></th>
 <th><strong>Readings</strong></th>
 <th><strong>Slides</strong></th>
-<th><strong>Notes</strong></th>
+<th><strong>Due dates</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -2630,39 +2643,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>1</td>
 <td>Thursday</td>
-<td><span style="color: red;"><strong>No Class</strong></span></td>
+<td>Causal Diagrams</td>
+<td><a href="https://www.nature.com/articles/s41586-023-06410-z">Brodie, J.F., et al. (2023)</a> <br><a href="https://theeffectbook.net/index.html">The Effect Book</a> (<strong>ch6 &amp; 7</strong>)</td>
+<td><a href="slides/Directed_Acyclic_Graph_(DAG).pptx">DAG Slides</a></td>
 <td></td>
-<td></td>
-<td><span style="color: red;">No Class</span></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Tuesday</td>
 <td>Causal Diagrams</td>
-<td><a href="https://www.nature.com/articles/s41586-023-06410-z">Brodie, J.F., et al. (2023)</a>, “Landscape-Scale Benefits of Protected Areas for Tropical Biodiversity.” <br><a href="https://theeffectbook.net/index.html">The Effect Book</a> (<strong>ch6 &amp; 7</strong>)</td>
-<td><a href="slides/Directed_Acyclic_Graph_(DAG).pptx">DAG Slides</a></td>
+<td><a href="https://theeffectbook.net/index.html">The Effect Book</a> (<strong>ch6 &amp; 7</strong>)</td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>2</td>
 <td>Thursday</td>
-<td>Causal Diagrams</td>
-<td><a href="https://theeffectbook.net/index.html">The Effect Book</a> (<strong>ch6 &amp; 7</strong>)</td>
+<td><span style="color: red;"><strong>No Class</strong></span></td>
 <td></td>
-<td><strong>Assignment 1 due Thurs, Oct 10 (includes paper topic)</strong></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td>3</td>
 <td>Tuesday</td>
-<td>Randomized Control Trials (RCT) and Power Calculations</td>
+<td>Randomized Control Trials (RCT)</td>
 <td><a href="books/impact_eval_book.pdf">Impact Evaluation in Practice</a> (<strong>ch4,p63-86</strong>)</td>
 <td><a href="slides/2A%20-%20Randomized%20Control%20Trials.pptx">Randomized Control Trials Slides</a></td>
-<td></td>
+<td><strong>Assignment 1 due, Oct. 14th</strong></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>3</td>
 <td>Thursday</td>
 <td>Randomized Control Trials (RCT) and Power Calculations</td>
 <td><a href="books/impact_eval_book.pdf">Impact Evaluation in Practice</a> (<strong>ch15,p261-287</strong>)</td>
@@ -2673,62 +2686,62 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <td>4</td>
 <td>Tuesday</td>
 <td>Matching and Synthetic Controls</td>
-<td><a href="https://conbio.onlinelibrary.wiley.com/doi/10.1111/j.1523-1739.2011.01729.x">Honey-Rosés, J., et al. (2011)</a> <br> <span style="color: gray; font-style: italic;">Skim: <a href="journals/1975-06502-001.pdf">Rubin, D. B. (1974)</a>, “Original Work”</span></td>
+<td><a href="https://conbio.onlinelibrary.wiley.com/doi/10.1111/j.1523-1739.2011.01729.x">Honey-Rosés, J., et al. (2011)</a> <br> <span style="color: gray; font-style: italic;">Skim: <a href="journals/1975-06502-001.pdf">Rubin, D. B. (1974)</a></span></td>
 <td><a href="slides/2B%20-%20Matching%20Estimators.pptx">Matching Estimators Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>4</td>
 <td>Thursday</td>
 <td>Matching and Synthetic Controls</td>
-<td><a href="https://www.tandfonline.com/doi/citedby/10.1198/jasa.2009.ap08746?scroll=top&amp;needAccess=true">Alberto Abadie, Alexis Diamond &amp; Jens Hainmueller (2012)</a></td>
+<td><a href="https://www.tandfonline.com/doi/citedby/10.1198/jasa.2009.ap08746?scroll=top&amp;needAccess=true">Abadie, A., Diamond, A., &amp; Hainmueller, J. (2012)</a></td>
 <td><a href="slides/Synthetic%20Controls.pptx">Synthetic Controls Slides</a></td>
-<td></td>
+<td><strong>Assignment 2 due, Oct. 28th</strong></td>
 </tr>
 <tr class="even">
 <td>5</td>
 <td>Tuesday</td>
-<td>Differences-in-Differences (DID) and Staggered roll-out</td>
+<td>Differences-in-Differences (DID)</td>
 <td><a href="https://pubmed.ncbi.nlm.nih.gov/35444280/">Wauchope HS, Jones JPG, et al. (2022)</a></td>
 <td><a href="slides/3A%20-%20Difference-in-Differences.pptx">Difference-in-Differences Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>5</td>
 <td>Thursday</td>
-<td>Differences-in-Differences and Staggered roll-out</td>
-<td><a href="https://doi.org/10.1016/j.jeconom.2023.03.008">Jonathan Roth, Pedro H.C. Sant’Anna, Alyssa Bilinski, John Poe. (2023)</a></td>
+<td>Staggered Roll-out</td>
+<td><a href="https://doi.org/10.1016/j.jeconom.2023.03.008">Roth, J., Sant’Anna, P.H.C., Bilinski, A., Poe, J. (2023)</a></td>
 <td><a href="slides/New%20DiD.pptx">New DiD Slides</a></td>
-<td><strong>Assignment 2 due Tues, Oct 29</strong></td>
+<td></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Tuesday</td>
-<td>Instrumental Variables and Regression Discontinuity Design</td>
+<td>Instrumental Variables (IV)</td>
 <td><a href="https://doi.org/10.1111/ajps.12894">Mellon, 2024</a></td>
 <td><a href="slides/3B%20-%20Instrumental%20Variables.pptx">IV Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>6</td>
 <td>Thursday</td>
-<td>Instrumental Variables and Regression Discontinuity Design</td>
-<td><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12274">Noack, Frederik, Ashley Larsen, Johannes Kamp, and Christian Levers. (2022)</a></td>
-<td></td>
-<td><strong>Assignment 3 due Tues, Nov 12th</strong></td>
+<td>Regression Discontinuity Design</td>
+<td><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12274">Noack, F., Larsen, A., Kamp, J., &amp; Levers, C. (2022)</a></td>
+<td><a href="slides/4A%20RDD.pdf">RDD Slides</a></td>
+<td><strong>Assignment 3 due, Nov 11th</strong></td>
 </tr>
 <tr class="even">
 <td>7</td>
 <td>Tuesday</td>
 <td>Standard errors and spatial considerations</td>
 <td></td>
-<td><a href="slides/4A%20RDD.pptx">RDD Slides</a></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>7</td>
 <td>Thursday</td>
-<td></td>
+<td>Standard errors and spatial considerations</td>
 <td></td>
 <td></td>
 <td></td>
@@ -2736,45 +2749,54 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <tr class="even">
 <td>8</td>
 <td>Tuesday</td>
-<td>Remote Sensing and Machine Learning (ML) in Causal Analysis</td>
-<td><a href="https://www.nber.org/papers/w30861?utm_campaign=ntwh&amp;utm_medium=email&amp;utm_source=ntwg3">Proctor, J., Carleton, T., Sum, S. (2023)</a> <a href="slides/Proctor,%20Carleton%20and%20Sum.pptx">Proctor, J., Carleton, T. Slides</a></td>
+<td>Special considerations when using remote sensing</td>
+<td><a href="https://www.nber.org/papers/w30861">Proctor, J., Carleton, T., Sum, S. (2023)</a> <br> <a href="slides/Proctor,%20Carleton%20and%20Sum.pptx">Proctor, J., Carleton, T. Slides</a></td>
 <td><a href="slides/Spatial%20causal.pptx">Spatial Causal Slides</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>8</td>
 <td>Thursday</td>
-<td>Remote Sensing and Machine Learning (ML) in Causal Analysis</td>
-<td><a href="https://doi.org/10.1016/bs.hesagr.2021.10.007">Baylis, K., T. Heckelei, H. Storm. (2021)</a> <a href="journals/Avelino%20et%20al%202016%20Goldilocks%20and%20the%20Raster%20Grid.pdf">Avelino et al 2016 Goldilocks and the Raster Grid</a></td>
-<td><a href="https://colab.research.google.com/github/agpo-ilr-uni-bonn/PromotionskollegModule6800_2024/blob/master/6800_Day1.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></td>
-<td><strong>Assignment 4 due Thurs, Nov 30</strong></td>
+<td>Machine learning for causal inference</td>
+<td><a href="https://doi.org/10.1016/bs.hesagr.2021.10.007">Baylis, K., Heckelei, T., Storm, H. (2021)</a> <br> <a href="journals/Avelino%20et%20al%202016%20Goldilocks%20and%20the%20Raster%20Grid.pdf">Avelino et al. 2016, Goldilocks and the Raster Grid</a></td>
+<td><a href="https://docs.google.com/presentation/d/1DSut2pG6LBtBYhNHDiewveYdyzx3dagcj7lQVdCt1lw/edit?usp=sharing">ML in Causal Analysis Part I Slides</a> <a href="https://colab.research.google.com/github/agpo-ilr-uni-bonn/PromotionskollegModule6800_2024/blob/master/6800_Day1.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></td>
+<td><strong>Assignment 4 due, Nov 25th</strong></td>
 </tr>
 <tr class="even">
 <td>9</td>
 <td>Tuesday</td>
-<td>Machine Learning (ML) in Causal Analysis</td>
-<td>-</td>
-<td><a href="https://docs.google.com/presentation/d/1DSut2pG6LBtBYhNHDiewveYdyzx3dagcj7lQVdCt1lw/edit?usp=sharing">ML in Causal Analysis Slides</a></td>
+<td>Machine learning for causal inference</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1LPo1IFZNeWcr2La1jGVOnred3IbmSePWlE6GA_l3EsU/edit?usp=sharing">ML in Causal Analysis Part II Slides</a> <a href="https://colab.research.google.com/github/agpo-ilr-uni-bonn/PromotionskollegModule6800_2024/blob/master/6800_Day4_5.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
+<td>9</td>
 <td>Thursday</td>
-<td><span style="color: red;"><strong>No Class</strong> (Thanksgiving)</span></td>
+<td><span style="color: red;"><strong>Thanksgiving :)</strong></span></td>
 <td></td>
 <td></td>
-<td><span style="color: red;">Thanksgiving</span></td>
+<td></td>
 </tr>
 <tr class="even">
 <td>10</td>
 <td>Tuesday</td>
 <td>Final Presentations</td>
 <td>-</td>
-<td><a href="#">Slides</a></td>
-<td><strong>Final Paper Proposal due Dec 9th</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Thursday</td>
+<td>Final Presentations</td>
+<td>-</td>
+<td></td>
+<td><strong>Papers due, Dec 10th</strong></td>
 </tr>
 </tbody>
 </table>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
